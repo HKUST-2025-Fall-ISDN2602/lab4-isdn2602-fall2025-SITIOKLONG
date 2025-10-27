@@ -5,6 +5,7 @@ addpath("library_p\");
 
 % Load the input image
 lorem_img = imread('lorem_img.png');
+lorem_img = lorem_img';
  
 % display the raw image
 figure(1); clf;
